@@ -1,0 +1,12 @@
+# Create your Interactive Story Program below
+## ask user to input words
+animal = input("enter an animal: ")
+noun = input("enter an item of clothing: ")
+## combine user input with story title
+title = animal.capitalize() + " in Cedarville"
+## output story title
+print(title)
+## combine user input with story
+story = "A large " + animal + " wearing a " + noun +  " caused chaos in Cedarville on Sunday ..."
+## output story 
+print(story)
