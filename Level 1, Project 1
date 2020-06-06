@@ -1,4 +1,4 @@
-# Create your Interactive Story Program below
+# Interactive Story Program
 ## ask user to input words
 animal = input("enter an animal: ")
 noun = input("enter an item of clothing: ")
