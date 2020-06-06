@@ -1,0 +1,38 @@
+## Get user input
+# How many people
+cookies_string = input("How many cookies do you want to make? ")
+cookies = int(cookies_string)
+## Calculate number of batches
+batches = cookies/12
+## Output number of batches
+print("Number of cookie batches: ")
+print(batches)
+## Create recipe variables
+cups_flour = 2
+cups_butter = 1
+cups_light_brown_sugar = 1.5
+teaspoon_baking_soda = .75
+eggs = 2
+cups_of_chocolate_chips = 1.25
+cups_of_sprinkles = 1
+teaspoon_vanilla_extract = 1
+## Calculate shopping quantities
+total_cups_flour = cups_flour * batches
+total_cups_butter = cups_butter * batches
+total_cups_light_brown_sugar = cups_light_brown_sugar * batches
+total_teaspoon_baking_soda = teaspoon_baking_soda * batches
+total_eggs = eggs * batches
+total_cups_of_chocolate_chips = cups_of_chocolate_chips * batches
+total_cups_of_sprinkles = cups_of_sprinkles * batches
+total_teaspoon_vanilla_extract = teaspoon_vanilla_extract * batches
+## Output shopping list
+print("  --- Shopping List ---  ")
+print( )
+print(str(total_cups_flour) + " cups of flour")
+print(str(total_cups_butter) + " cups of butter")
+print(str(total_cups_light_brown_sugar) + " cups of light brown sugar")
+print(str(total_teaspoon_baking_soda) + " teaspoons of baking soda")
+print(str(total_eggs) + " eggs")
+print(str(total_cups_of_chocolate_chips) + " cups of chocolate chips")
+print(str(total_cups_of_sprinkles) + " cups of sprinkles")
+print(str(total_teaspoon_vanilla_extract) + " teaspoons of vanilla extract")
